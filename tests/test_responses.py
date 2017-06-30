@@ -1,7 +1,7 @@
 from hypothesis import given
 from hypothesis.strategies import builds, text, sampled_from
 
-from common.responses import Response, ErrorCode, rpc_response
+from responses import Response, ErrorCode, rpc_response
 
 
 # noinspection PyUnresolvedReferences
